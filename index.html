@@ -16,31 +16,29 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Omnifood bootstrap</title>
   </head>
   <body>
-    <header class="header">
-      <a href="#">
-        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
-      </a>
+    <div class="content-area">
+      <nav class="navigation d-flex align-items-center justify-content-between">
+        <a href="#">
+          <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+        </a>
 
-      <nav class="">
-        <ul class="">
+        <ul class="d-flex flex-row">
           <li><a class="" href="#">How it works</a></li>
           <li><a class="" href="#">Meals</a></li>
           <li><a class="" href="#">Testimonials</a></li>
           <li><a class="" href="#">Pricing</a></li>
-          <li><a class="" href="#">Try for free</a></li>
+          <li><a class="nav-button" href="#">Try for free</a></li>
         </ul>
       </nav>
-    </header>
 
-    <main>
-      <section class="">
-        <div class="">
-          <div class="">
-            <h1 class="">
+      <div class="container">
+        <section class="hero row row-col-2">
+          <div class="col">
+            <h1 class=" ">
               A healthy meal delivered to your door, every single day
             </h1>
             <p class="">
@@ -48,10 +46,11 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a href="#" class="">Start eating well</a>
-            <a href="#" class="">Learn more &darr;</a>
-            <div class="">
-              <div class="">
+            <a href="#" class="hero-btn1">Start eating well</a>
+            <a href="#" class="hero-btn2">Learn more &darr;</a>
+
+            <div class="d-flex align-items-center delivered-meals">
+              <div class="d-flex delivered-images">
                 <img src="img/customers/customer-1.jpg" alt="Customer photo" />
                 <img src="img/customers/customer-2.jpg" alt="Customer photo" />
                 <img src="img/customers/customer-3.jpg" alt="Customer photo" />
@@ -59,19 +58,24 @@
                 <img src="img/customers/customer-5.jpg" alt="Customer photo" />
                 <img src="img/customers/customer-6.jpg" alt="Customer photo" />
               </div>
-              <p class=""><span>250,000+</span> meals delivered last year!</p>
+              <p class="delivered-p">
+                <span>250,000+</span> meals delivered last year!
+              </p>
             </div>
           </div>
-          <div class="">
+
+          <div class="col">
             <img
               src="img/hero.png"
               class=""
               alt="Woman enjoying food, meals in storage container, and food bowls on a table"
             />
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
+    </div>
 
+    <main>
       <section class="">
         <div class="">
           <h2 class="">As featured in</h2>
